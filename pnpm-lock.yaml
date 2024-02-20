@@ -1,0 +1,13 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .: {}
+
+  packages/a: {}
+
+  packages/b:
+    dependencies:
+      '@ziming/a':
+        specifier: workspace:^
+        version: link:../a
