@@ -1,0 +1,4 @@
+**.d.ts
+/packages/ziming
+dist
+node_modules

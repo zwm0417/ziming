@@ -1,3 +1,3 @@
-import sayHello from '@zxc-ui/a'
+import sayHello from '@zxc-ui/a';
 
-sayHello()
+sayHello();
