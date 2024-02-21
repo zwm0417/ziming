@@ -1,16 +1,25 @@
 {
-  "cSpell.userWords": ["esbenp", "pinia", "stylelint", "tauri", "unplugin"],
+  "cSpell.userWords": [
+    "esbenp",
+    "pinia",
+    "stylelint",
+    "tauri",
+    "unplugin",
+    "vite"
+  ],
+  "cSpell.words": ["ziming"],
   "files.eol": "\n",
 
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit",
     "source.organizeImports": "explicit"
   },
-  "editor.tabSize": 2,
 
-  "eslint.format.enable": true,
+  "eslint.format.enable": false,
 
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -18,7 +27,34 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "explorer.confirmDelete": false,
+
+  "git.confirmSync": false,
+
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.07)",
+    "rgba(127,255,127,0.07)",
+    "rgba(255,127,255,0.07)",
+    "rgba(79,236,236,0.07)"
+  ],
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+  "indentRainbow.lightIndicatorStyleLineWidth": 3
 }

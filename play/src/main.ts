@@ -1,7 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './style.css'
+import ziming from '@ziming/components';
+import { createApp } from 'vue';
+import App from './App.vue';
+import './style.css';
 
-const app = createApp(App)
+const app = createApp(App);
+app.use(ziming);
 
-app.mount('#app')
+app.mount('#app');

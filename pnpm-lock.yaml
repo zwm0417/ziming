@@ -14,6 +14,9 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^7.0.2
         version: 7.0.2(eslint@8.56.0)(typescript@5.3.3)
+      '@vue/runtime-core':
+        specifier: ^3.4.19
+        version: 3.4.19
       eslint:
         specifier: ^8.56.0
         version: 8.56.0
@@ -71,8 +74,15 @@ importers:
         specifier: workspace:^
         version: link:../a
 
+  packages/components: {}
+
+  packages/utils: {}
+
   play:
     dependencies:
+      '@ziming/components':
+        specifier: workspace:^
+        version: link:../packages/components
       vue:
         specifier: ^3.4.19
         version: 3.4.19(typescript@5.3.3)
