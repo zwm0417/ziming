@@ -1,0 +1,6 @@
+.text-primary {
+  color: #409eff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
