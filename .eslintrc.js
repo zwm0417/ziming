@@ -23,6 +23,8 @@ module.exports = {
     // 2. 开启 prettier 自动修复的功能
     'prettier/prettier': 'warn',
     '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
     'vue/multi-word-component-names': 'off'
   }
 };

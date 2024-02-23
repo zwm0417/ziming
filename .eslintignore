@@ -1,4 +1,5 @@
 **.d.ts
-/packages/ziming
+/packages/ziming-ui
 dist
 node_modules
+gulpdemo
