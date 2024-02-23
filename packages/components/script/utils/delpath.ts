@@ -26,7 +26,7 @@ const delPath = async (path: string) => {
       }
     });
 
-    if (path != `${pkgPath}/ziming`) fs.rmdirSync(path);
+    if (path != `${pkgPath}/ziming-ui`) fs.rmdirSync(path);
   }
 };
 export default delPath;

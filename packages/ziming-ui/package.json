@@ -1,0 +1,25 @@
+{
+  "name": "ziming-ui",
+  "version": "1.0.0",
+  "description": "个人搭建的业务组件库",
+  "author": "leslie",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "module": "./es/index.mjs",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ziming",
+    "ziming-ui",
+    "vue3组件库"
+  ]
+}

@@ -11,7 +11,7 @@ const sass = gulpSass(dartSass);
 //删除ziming
 
 export const removeDist = () => {
-  return delPath(`${pkgPath}/ziming`);
+  return delPath(`${pkgPath}/ziming-ui`);
 };
 
 //打包样式
@@ -19,8 +19,8 @@ export const buildStyle = () => {
   return src(`${componentPath}/src/**/style/**.scss`)
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(dest(`${pkgPath}/ziming/lib/src`))
-    .pipe(dest(`${pkgPath}/ziming/es/src`));
+    .pipe(dest(`${pkgPath}/ziming-ui/lib/src`))
+    .pipe(dest(`${pkgPath}/ziming-ui/es/src`));
 };
 
 //打包组件

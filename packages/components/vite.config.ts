@@ -23,7 +23,7 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../ziming/es'
+          dir: '../ziming-ui/es'
         },
         {
           //打包格式
@@ -34,7 +34,7 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../ziming/lib'
+          dir: '../ziming-ui/lib'
         }
       ]
     },
@@ -46,7 +46,7 @@ export default defineConfig({
     vue(),
     dts({
       entryRoot: './src',
-      outDir: ['../ziming/es/src', '../ziming/lib/src'],
+      outDir: ['../ziming-ui/es/src', '../ziming-ui/lib/src'],
       //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
       tsconfigPath: '../../tsconfig.json'
     }),
