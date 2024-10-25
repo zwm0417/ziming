@@ -1,6 +1,6 @@
 <template>
   <button class="zm-button" :class="buttonStyle">
-    <slot>测试按钮</slot>
+    <slot>发射</slot>
   </button>
 </template>
 

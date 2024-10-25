@@ -7,7 +7,7 @@
     "unplugin",
     "vite"
   ],
-  "cSpell.words": ["ziming"],
+  "cSpell.words": ["vitepress", "ziming"],
   "files.eol": "\n",
 
   "editor.tabSize": 2,
