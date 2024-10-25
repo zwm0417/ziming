@@ -16,6 +16,10 @@
   padding: 12px 20px;
   font-size: 14px;
   border-radius: 4px;
+
+  & + .zm-button{
+    margin-left: 12px;
+  }
 }
 
 .zm-button.zm-button--primary {
@@ -29,3 +33,5 @@
     color: #fff;
   }
 }
+
+

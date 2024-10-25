@@ -17,6 +17,6 @@
     "vitepress": "1.0.0-rc.44"
   },
   "dependencies": {
-    "ziming": "workspace:^"
+    "ziming-ui": "workspace:^"
   }
 }
